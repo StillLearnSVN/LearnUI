@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/Institut Teknologi Del (1).png" rel="icon">
+    <link href="img/Institut Teknologi Del (1).png" rel="apple-touch-icon">
+    <title>Institut Teknologi Del</title>
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <img src="img/Frame 3.png" alt="" class="logo" style="margin-left: 30px;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <div class="navbar" style="padding-left: 50px;">
+                <style>
+                  .menu{
+                    margin-left: 25px;
+                  }
+                </style>
+                <a href="Home.html"><div class="menu" onclick="changePage('home')">Dashboard</div></a>
+                <a href="Pengumuman.html"><div class="menu" onclick="changePage('about')">Pengumuman</div></a>
+                <a href="ProgramPendidikan.html"><div class="menu" onclick="changePage('services')">Program Pendidikan</div></a>
+                <a href="Lembaga.html"><div class="menu" onclick="changePage('portfolio')">Lembaga</div></a>
+                <a href="Fasilitas.html"><div class="menu" onclick="changePage('contact')">Fasilitas</div></a>
+            </div>
+            <form class="d-flex ms-auto" role="search" style="padding-left: 80px;">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 50px;">
+              <button class="btn btn-outline-success" type="submit" style="background-color: #0078C4; border: none; border-radius: 50px;">
+                <img src="img/loupe.png" alt="" style="width: 25px;">
+              </button>
+            </form> 
+              </div>
+            </div>
+          </nav>   
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="width: 1535px; height: 500px;">
+        <div class="carousel-item active" style="width: 1535px;">
+          <img src="img/DSC02166-1024x681.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide 2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/berita1copy.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="background-color: black; width: 70px; border-radius: 200px; height: 70px; margin-top: 200px; margin-left: 50px;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style="background-color: black; width: 70px; border-radius: 200px; height: 70px; margin-top: 200px; margin-right: 50px;">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="main">
+      <style>
+        .card_title{
+          text-align: center;
+        }
+        .card_text{
+          text-align: center;
+        }
+      </style>
+      <center><h2 style="margin-top: 30px;"><b>Berita Terkini</b></h2></center>
+      <ul class="cards">
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="img/berita2.jpeg" style="margin: 20px; width: 325px;"></div>
+            <div class="card_content">
+              <h2 class="card_title" style="padding-bottom: 21px;">IT Del Sosialisasikan Program MBKM kepada Mahasiswa</h2>
+              <br>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="img/berita3.jpeg" style="margin: 20px; width: 325px;"></div>
+            <div class="card_content">
+              <h2 class="card_title" style="padding-bottom: 2.5px;">Sampling Kemenyan Toba di Kabupaten Tapanuli Utara, Kabupaten Humbang Hasundutan, dan Kabupaten Pakpak Bharat</h2>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="img/berita1.jpg" style="margin: 20px; width: 325px; height: 195px;"></div>
+            <div class="card_content">
+              <h2 class="card_title">Kuliah Umum oleh Konsulat Amerika Serikat terkait Suku Asli Amerika Serikat</h2>
+              <br>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <center><button class="button">Berita Lainnya</button></center>
+
+    <div style="background-color: #47156C; height: 450px; margin-top: 20px; margin-left: 175px; margin-right: 175px;">
+      <center><img src="img/Desktop - 2.png" alt="" style="width: 1025px; margin-top: 32px; "></center>
+    </div>
+
+    <div class="main-container" style="margin-top: 30px;">
+      <div class="box">
+        <div class="wrapper"><span class="text">Menu</span></div>
+        <div class="box-2">
+          <div class="wrapper-2">
+            <div class="img"> <img src="img/chat.png" alt=""> </div>
+            <span class="text-2">FAQ</span>
+          </div>
+          <div class="img-2"> <img src="img/group.png" alt=""></div>
+          <span class="text-3">Kerjasama</span>
+        </div>
+        <div class="section">
+          <div class="pic"></div>
+          <div class="box-3">
+            <div class="pic-2"> <img src="img/tv.png" alt=""></div>
+            <span class="text-4">IT Del TV</span>
+          </div>
+          <img src="img/badge.png" alt="" style="width: 65px;">
+          <span class="text-5">Akreditasi</span>
+        </div>
+      </div>
+      <div class="group">
+        <div class="box-4"><span class="text-6">Testimonials</span></div>
+        <div class="wrapper-3">
+          <span class="text-7"
+            >Saya sangat bangga dan bersyukur memiliki kesempatan<br />kuliah di
+            Program Studi Manajemen Rekayasa Fakultas<br />Teknologi Industri
+            Institut Teknologi Del.<br />Dua minggu setelah saya diwisuda telah
+            diterima <br />bekerja di ASTRA OTOPARTS Tbk, dengan tanggung<br />jawab
+            sebagai Supply Chain Supervisor. Pengalaman <br />pertama bekerja 24
+            Sep 2018, saat saya dibawa keliling <br />PT Astra dan berkenalan
+            dengan semua lini, [....]</span
+          >
+        </div>
+      </div>
+      <div class="img-3"></div>
+    </div>
+
+
+    <center><h2 style="margin-top: 30px;"><b>Lokasi</b></h2></center>
+    <div id="map" style="justify-content: center; margin-left: 90px;">
+      <iframe
+        width="94%"
+        height="300"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5921661596337!2d99.1464443147692!3d2.3832151979999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e00fdad2d7341%3A0xf59ef99c591fe451!2sDel%20Institute%20of%20Technology!5e0!3m2!1sen!2sid!4v1630017954775!5m2!1sen!2sid"
+        allowfullscreen
+      ></iframe>
+        </div>
+
+    <div>
+      <center><img src="img/footer.png" alt="" style=" margin-top: 32px; "></center>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

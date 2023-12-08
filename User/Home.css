@@ -1,0 +1,571 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container-fluid{
+  background-color: #47156C;
+  padding: 10px;
+}
+
+.logo{
+  width: 280px;
+
+}
+
+.title{
+  text-align: left;
+  align-items: baseline;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.menu {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.menu:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: #D0CECE;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background-color: #D0CECE;
+}
+
+.card_title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #000000;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+.card_image{
+  background-color: #D0CECE;
+}
+
+
+
+
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0px 4px 0px #0072ff;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 0px #0072ff;
+}
+
+.button:active {
+  transform: translateY(0px);
+  box-shadow: none;
+}
+
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.button:before {
+  top: -3px;
+  left: -3px;
+  border-radius: 40px;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+
+.button:after {
+  bottom: -3px;
+  right: -3px;
+  border-radius: 40px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+
+
+
+
+
+
+
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  width: 1384px;
+  height: 388px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.box {
+  position: absolute;
+  width: 654px;
+  height: 352px;
+  top: 15px;
+  left: 15px;
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 654px;
+  height: 62px;
+  margin: 0 0 0 0;
+  background: #0078c4;
+  border: 1px solid #000000;
+  z-index: 4;
+}
+.text {
+  flex-shrink: 0;
+  position: relative;
+  height: 36px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.box-2 {
+  position: relative;
+  width: 466px;
+  height: 68px;
+  margin: 31px 0 0 44px;
+  z-index: 16;
+}
+.wrapper-2 {
+  position: absolute;
+  width: 159px;
+  height: 68px;
+  top: 0;
+  left: 307px;
+  z-index: 10;
+}
+.img {
+  position: absolute;
+  width: 67px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/5b4627aaca11759f164c8e4e8eba4b48f478d7cd.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
+.text-2 {
+  position: absolute;
+  height: 35px;
+  top: 13px;
+  left: 98px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.img-2 {
+  position: absolute;
+  width: 70px;
+  height: 64px;
+  top: 4px;
+  left: 0;
+  background: url(./assets/images/87b97455044997b461c71a8e4321d6a5ae0d3f97.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.text-3 {
+  position: absolute;
+  height: 35px;
+  top: 13px;
+  left: 98px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.section {
+  position: relative;
+  width: 551px;
+  height: 77px;
+  margin: 50px 0 0 38px;
+  z-index: 12;
+}
+.pic {
+  position: absolute;
+  width: 82px;
+  height: 77px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/e2558e9406fad66a0fef43a6345f44af3e5e8af2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.box-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 238px;
+  height: 77px;
+  top: 0;
+  left: 313px;
+  z-index: 11;
+}
+.pic-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 69px;
+  height: 65px;
+  background: url(./assets/images/8fd2ca3ecbdb34a546401f62161194e0260feff6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.text-4 {
+  flex-shrink: 0;
+  position: relative;
+  height: 36px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.text-5 {
+  position: absolute;
+  height: 36px;
+  top: 20px;
+  left: 104px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.group {
+  position: absolute;
+  width: 654px;
+  height: 352px;
+  top: 15px;
+  left: 715px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  z-index: 1;
+}
+.box-4 {
+  position: relative;
+  width: 654px;
+  height: 62px;
+  margin: 0 0 0 0;
+  background: #0078c4;
+  border: 1px solid #000000;
+  z-index: 3;
+}
+.text-6 {
+  position: absolute;
+  height: 36px;
+  top: 13px;
+  left: 232px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.wrapper-3 {
+  position: relative;
+  width: 600px;
+  height: 223px;
+  margin: 21px 0 0 27px;
+  background: #d9d9d9;
+  z-index: 13;
+}
+.text-7 {
+  position: absolute;
+  width: 575px;
+  height: 191px;
+  top: 10px;
+  left: 14px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: justified;
+  z-index: 15;
+}
+.img-3 {
+  position: absolute;
+  width: 86.935px;
+  height: 87.161px;
+  top: 285.839px;
+  left: 1251.074px;
+  background: url(./assets/images/1d425d6c-338b-4c94-a5dc-d7f32a45f5f9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+  /* background: url("../images/banner2.jpg") center center no-repeat; */
+    background-color: black;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+    position: relative;
+    background-attachment: fixed; 
+  }
+  
+  footer{
+      position: sticky;
+      top: 100%;
+      align-items: center;
+  }
+  
+  .container{
+      max-width: 1170px;
+      margin: auto;
+  }
+  ul{
+      list-style: none;
+  } 
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .footer-col{
+      width: 25%;
+      padding: 0 15px;
+      align-items: center;
+      margin-left: 90px;
+  }
+  
+  .footer-col h4{
+      font-size: 18px;
+      color: rgb(255, 250, 250);
+      margin-bottom: 30px;
+      font-weight: 500px;
+      position: relative;
+  }
+  
+  
+  .footer-col h4::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      background-color: rgb(255, 255, 255);
+      bottom: -10px;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+  }
+  
+  .footer-col ul li:not(:last-child){
+      margin-bottom: 10px;
+  }
+  
+  
+  .footer-col ul li a{
+      font-size: 16px;
+      text-transform: capitalize;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-weight: 300;
+      color: rgb(255, 255, 255);
+      display: block;
+      transition: all 0.3s ease;
+      font-family: 'magra';
+  }
+  
+  
+  .footer-col ul li a:hover{
+  color: #f0bb00;
+  margin-left: 5px;
+  }
+  
+  
+  @media(max-width: 767px){
+      .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+  }
+  
+  @media(max-width: 574px){
+      .footer-col{
+          width: 100%;
+      }
+  }
+  p{
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: -70px;
+      padding-bottom: 15px;
+      color: #ffffff;
+  }
+  
+  /* footer end */
+

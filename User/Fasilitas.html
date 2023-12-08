@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/Institut Teknologi Del (1).png" rel="icon">
+    <link href="img/Institut Teknologi Del (1).png" rel="apple-touch-icon">
+    <title>Fasilitas</title>
+    <link rel="stylesheet" href="Fasilitas.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <img src="img/Frame 3.png" alt="" class="logo" style="margin-left: 30px;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <div class="navbar" style="padding-left: 50px;">
+                <style>
+                  .menu{
+                    margin-left: 25px;
+                  }
+                </style>
+                <a href="Home.html"><div class="menu" onclick="changePage('home')">Dashboard</div></a>
+                <a href="Pengumuman.html"><div class="menu" onclick="changePage('about')">Pengumuman</div></a>
+                <a href="ProgramPendidikan.html"><div class="menu" onclick="changePage('services')">Program Pendidikan</div></a>
+                <a href="Lembaga.html"><div class="menu" onclick="changePage('portfolio')">Lembaga</div></a>
+                <a href="Fasilitas.html"><div class="menu" onclick="changePage('contact')">Fasilitas</div></a>
+            </div>
+            <form class="d-flex ms-auto" role="search" style="padding-left: 80px;">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 50px;">
+              <button class="btn1 btn-outline-success" type="submit" style="background-color: #0078C4; border: none; border-radius: 50px; padding-left: 13px; padding-right: 12px;">
+                <img src="img/loupe.png" alt="" style="width: 25px;">
+              </button>
+            </form> 
+              </div>
+            </div>
+          </nav>   
+        </div>
+      </div>
+    </nav>
+
+    <h2 style="text-align: center;"><b>Fasilitas</b></h2>
+
+    <div class="container" style="margin-top: 30px;">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/lab.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Laboratorium</h5>
+                <p class="card-text">Terdapat beberapa laboratorium yang diantaranya adalah Laboratorium Bahasa, Komputer, Bioteknologi dan lainnya. Definisi Laboratorium Komputasi adalah ruangan yang dilabeli sebagai laboratorium komputasi yang berisi sekumpulan perangkat yang terdiri atas Komputer Desktop, Laptop, AC, projector, printer, dan perangkat lain sesuai dengan kebutuhan dari laboratorium yang dimaksud</p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/ruangkelas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ruang Kelas</h5>
+                <p class="card-text">Ruang kelas ditata sedemikian mungkin agar mahasiswa dapat dengan nyaman belajar dan berpartisipasi aktif dalam proses pembelajaran. Fasilitas yang memadai, pencahayaan yang cukup, dan penyusunan kursi dan meja yang ergonomis menjadi perhatian utama. </p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/kantin.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kantin</h5>
+                <p class="card-text">Kantin IT Del menyediakan menu makanan yang bergizi dan sehat untuk semua mahasiswa/i. Menu yang disediakan selalu memenuhi standard gizi, sehingga mahasiswa bisa melaksanakan aktifitas perkuliahan dengan sehat dan prima. Setiap mahasiswa diwajibkan untuk makan di kantin tiga kali setiap harinya.</p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 30px;">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/klinik.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Klinik</h5>
+                <p class="card-text">Untuk mendukung kesejahteraan civitas academica (civitas akademika) yang sakit atau membutuhkan perawatan kesehatan, kampus menyediakan fasilitas klinik kesehatan. Klinik ini dirancang untuk memberikan pelayanan medis dasar, seperti pemeriksaan kesehatan, konsultasi dokter, dan penanganan ringan hingga sedang.</p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/lapangan.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lapangan Olahraga</h5>
+                <p class="card-text">Terdapat lapangan Basket, Futsal, dan Voli sebagai tempat mahasiswa, mahasiswi, dan staff dapat berolahraga saat ada waktu senggang. Keberadaan fasilitas olahraga ini tidak hanya memberikan kesempatan untuk menjaga kesehatan fisik, tetapi juga menciptakan lingkungan yang mendukung gaya hidup aktif dan sehat di kalangan seluruh komunitas kampus.
+
+                </p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/perpustakaan.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Perpustakaan</h5>
+                <p class="card-text">Perpustakaan Institut Teknologi Del memiliki fungsi utama yaitu fungsi pendidikan. Pengadaan koleksi dan pengembangan minat baca internal dan eksternal Institut Teknologi Del dilakukan sebagai bagian dari kegiatan diseminasi kegiatan peningkatan  minat baca.</p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 30px;">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/asrama.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Asrama</h5>
+                <p class="card-text">Asrama menjadi tempat tinggal untuk semua mahasiswa dan mahasiswi serta beberapa dosen dan staff. saat ini sudah ada 7 asrama yang dapat menampung semua mahasiswa dan ada beberapa rumah untuk tempat tinggal Dosen dan TA.</p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/koper.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Koperasi</h5>
+                <p class="card-text">Koperasi merupakan tempat yang sangat bermanfaat di lingkungan kampus, terutama sebagai fasilitas bagi mahasiswa untuk membeli makanan ringan sebagai cemilan di waktu kosong. Dalam konteks koperasi kampus, berbagai jenis makanan ringan dan minuman biasanya tersedia untuk memenuhi kebutuhan selera beragam mahasiswa. </p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+              <img src="img/ot.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Open Theater</h5>
+                <p class="card-text">IT Del terbagi dalam tiga area yaitu Open Theater (OT), Asrama, dan Entrance Hall (EH). Selain itu, IT Del terbentang luas pemandangan Danau Toba di area belakang kampus. Fasilitas ruang terbuka sering digunakan oleh mahasiswa di lokasi OT dan EH untuk kerja kelompok, belajar individu, dan bersantai.</p>
+                <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div>
+        <img src="img/footer.png" alt="" style="margin-top: 32px;">
+     </div>
+      

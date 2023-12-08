@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container-fluid{
+    background-color: #47156C;
+    padding: 10px;
+  }
+  
+  .logo{
+    width: 280px;
+  
+  }
+  
+  .title{
+    text-align: left;
+    align-items: baseline;
+    color: white;
+  }
+  
+  .navbar {
+    overflow: hidden;
+  }
+  
+  .menu {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .menu:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .card-title{
+    font-weight: bold;
+  }
